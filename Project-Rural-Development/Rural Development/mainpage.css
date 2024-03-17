@@ -253,9 +253,11 @@
          align-items: center;
          cursor: pointer;
          margin: 20px;
+         box-shadow: white 0px 0px 220px 12px;
         }
         #pict1{
           margin-left: 90px;
+          box-shadow: white 0px 0px 220px 12px;
         }
 
         .doc1{
@@ -439,7 +441,7 @@
  
         .department{
          background: #0b53b9;
-         box-shadow: yellow 2px 0px 244px 134px;
+         box-shadow: yellow 20px 0px 3334px 0px;
          padding-left: 10px;
         }
         .department1{
@@ -641,24 +643,24 @@ footer{
   margin-top: 10px;
 }
 
-.footer-content{
-  display: flex;
+.container1,.footer-content{
+  /* display: flex; */
   /* align-items: center; */
-  margin: 05px 0px 05px 400px;
+  margin: 05px 0px 5px 0px;
 }
 
 .contact ,h222 {
   display: flex;
   font-size: 30px;
   text-decoration: dotted white;
-  margin-left: 400px;
+  margin-left: -500px;
 
 }
 
 .help {
   display: flex;
   text-decoration: dotted white;
-  margin-left: 400px;
+  margin-left: -500px;
   
 }
 
