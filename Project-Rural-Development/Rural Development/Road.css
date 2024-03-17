@@ -17,11 +17,21 @@
 .element{
     display: flex;
     margin-left: 300px;
+    color:rgb(246, 167, 71);
     
 }
 
-.element ul , li{
+
+.element, ul ,li a{
     display: flex;
+    color:rgb(9, 8, 7);
+    gap:40px;
+    text-decoration: none;
+}
+
+.element:hover ul:hover ,li:hover a:hover{
+    display: flex;
+    color:rgb(119, 99, 79);
     gap:40px;
 }
 
