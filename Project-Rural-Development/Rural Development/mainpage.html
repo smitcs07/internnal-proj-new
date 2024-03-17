@@ -13,187 +13,6 @@
 </head>
 
 <body> 
-    <style>
-        
-       /* Slideshow container */
-       .slideshow-container {
-         max-width: 1550px;
-         width:1450px;
-         height:150px;
-         /* position: relative; */
-         margin: 10px 0px 0px 0px;
-       }
-       
-       /* Caption text */
-       .text {
-         color: #f2f2f2;
-         font-size: 15px;
-         padding: 8px 12px;
-         position: absolute;
-         bottom: 8px;
-         width: 100%;
-         text-align: center;
-       }
-       
-       /* Number text (1/3 etc) */
-       .numbertext {
-         color: #f2f2f2;
-         font-size: 12px;
-         padding: 8px 12px;
-         /* position: absolute; */
-         /* top: 0; */
-       }
-       
-       /* The dots/bullets/indicators */
-       .dot {
-         height: 15px;
-         width: 15px;
-         position: relative;
-         margin: 0px 2px;
-         background-color: #f19797;
-         border-radius: 50%;
-         display:flexbox;
-         transition: background-color 0.6s ease;
-         justify-content: space-between;
-       }
-       
-       .active {
-         background-color: #717171;
-       }
-       
-       /* Fading animation */
-       .fade {
-         animation-name: fade;
-         animation-duration: 0.5s;
-       }
-       
-       @keyframes fade {
-         from {opacity: .4} 
-         to {opacity: 1}
-       }
-       
-       /* On smaller screens, decrease text size */
-       @media only screen and (max-width: 300px) {
-         .text {font-size: 11px}
-       }
-
-       .option{
-        margin-top: 300px;
-       }
-
-       .gallery{
-        margin-top:10px;
-        height: 300px;
-        background:#d21054;
-        box-shadow: #8f035c 2px 0px 43px 3px;
-        
-       }
-
-       .media-gallery h1{
-       color: rgb(214, 212, 195);
-       text-align: center;
-      text-decoration: underline rgb(214, 212, 195) ;
-       padding-top: 10px;
-       }
-
-       .photo h4{
-        font-size: 32px;
-        color: rgb(214, 212, 195);
-       text-align:start;
-       margin: 0px 0px 0px 33px;
-       text-decoration:underline dotted;
-       padding-top: 10px;
-       }
-
-       .gallery img {
-        display:flex;
-        align-items: center;
-        height:100px;
-        width:100px;
-        margin:0px 0px 0px 63px;
-       }
-
-       .view1{
-        background: #fbc42e;
-        align-items: center;
-        padding: 2px 12px 2px 2px;
-        border: solid 1px #998502;
-        box-shadow: #f6a859 0px 2px 2px 3px ;
-        margin-top: 10px;
-        
-       }
-
-       .view1:hover{
-        background: #f4b60b;
-        padding: 2px 12px 2px 2px;
-        color: #050505;
-        align-items: center;
-        cursor: pointer;
-       }
-
-       .view11{
-        background: #fbc42e;
-        align-items: center;
-        padding: 2px 12px 2px 2px;
-        border: solid 1px #998502;
-        box-shadow: #f6a859 0px 2px 2px 3px ;
-        margin: 10px 0px 0px 40px;
-       }
-
-       .view11:hover{
-        background: #f4b60b;
-        padding: 2px 12px 2px 2px;
-        color: #050505;
-        align-items: center;
-        cursor: pointer;
-       }
-
-
-       .container31{
-        display: flex;
-        margin-top: 20px;
-        margin-left: 100px;
-       }
-
-       .container3, .gallery1{
-        width:1400px;
-        align-items: center;
-
-       }
-
-       .gallery{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       }
-
-       .department{
-        background: #0b53b9;
-        box-shadow: yellow 2px 0px 244px 134px;
-        padding-left: 10px;
-       }
-       .department1{
-        font-size: 50px;
-        color:yellow;
-        padding-top: 20px;
-        text-align: center;
-       }
-       .administration{
-        font-size: 30px;
-        color:yellow;
-        text-decoration: underline;
-        margin-left: 10px;
-      }
-      object{
-        font-size: 20px;
-      }
-
-
-
-
-
-       
-    </style>
     
         <nav class="navbar">
             <div class="container">
@@ -211,13 +30,13 @@
                 <li class="menu1"><a href="#home">Home</a></li>
                 <li class="menu2"><a href="#about">About</a></li>
                 <li class="menu3"><a href="#services">Services</a></li>
-                <li class="menu4"><a href="#help">Help</a></li>
+                <li class="menu4"><a href="#department">Department</a></li>
                 <li class="menu5"><a href="#contact">Contact</a></li>
                 
             </ul>
         </section>
 
-        <section class="demo">
+        <section class="demo" id="home">
             <div class="slideshow-container">
               
                 <div class="mySlides fade">
@@ -249,30 +68,29 @@
         </section>
 
 
-        <section class="option">
+        <section class="option" id="services">
             <h2 class="problems1">PROBLEMS</h2>
+            <div class="main">
 
-               <div class="content" style="display:flex;align-items:flex-end;">
+               <div class="content">
                     <a href="healthcare.html">
-                        <button class="pict1" style="margin-left: 90px;">
-                            <img src="helth.jpg" alt="Health care" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;margin-left: 0px;">
+                        <button id="pict1"class="pict1">
+                            <img src="helth.jpg" alt="Health care">
                 <div class="doc">
                     <h3>Health Issue</h3>
                 </div>
             </button>
                     </a>
-              
-               
-                    <a href="electr.html">
-                        <button class="pict1" style="margin-left: 20px;">
-                            <img src="elect.jpg" alt="electricty releted issuec:\Users\amita\Downloads\helth.jpg" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;">
-                            <div class="doc">
-                                <h3>Electricity Issue</h3>
-                            </div>
-                        </button>
-                        </a>
 
-                    <a href="education.html">
+                    <a href="electr.html">
+                      <button class="pict1" style="margin-left: 20px;">
+                          <img src="elect.jpg" alt="electricty releted issuec:\Users\amita\Downloads\helth.jpg" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;">
+                          <div class="doc">
+                              <h3>Electricity Issue</h3>
+                          </div>
+                      </button>
+                      </a>
+                      <a href="education.html">
                         <button class="pict1" style="margin-left: 20px;">
                             <img src="edu.png" alt="electricty releted issuec:\Users\amita\Downloads\helth.jpg" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;">
                             <div class="doc">
@@ -280,19 +98,30 @@
                             </div>
                         </button>
                         </a>
-                  
+                    </div>
 
-                    <a href="scheme.html">
-                        <button class="pict1" style="margin-left: 20px;">
-                       <img src="scheme.jpg" alt="govt scheme" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;">
-                       <div class="doc">
-                        <h3>Schemes</h3>
+                    <div class="content12">
+                      <a href="scheme.html">
+                        <button class="pict11" style="margin-left: 20px;">
+                       <img src="road.png" alt="govt scheme" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;">
+                       <div class="doc1">
+                        <h3>Road Construction</h3>
                     </div>
                     </button>
                 </a>
-            </div>   
+                <a href="scheme.html">
+                  <button class="pict13" style="margin-left: 20px;">
+                 <img src="scheme.jpg" alt="govt scheme" style="width:280px;height:150px;border:1px solid rgb(8, 0, 0);z-index:12;border-radius:19px;">
+                 <div class="doc1">
+                  <h3>Schemes</h3>
+              </div>
+              </button>
+            </a>
+               </div> 
+    </div>
         </section>
 
+        <!-- section -->
         <section class="gallery">
           <div class="container3">
             <div class="media-gallery">
@@ -335,7 +164,7 @@
 
         </section>
 
-        <section class="department">
+        <section class="department" id="department">
           <div class="department1">
             <h42>Department</h42>
           </div>
@@ -385,7 +214,7 @@
         </section>
 
     <br>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-content">
                 <p>© 2024 Dyno Rural Development. All rights reserved.</p>
@@ -414,7 +243,6 @@
               setTimeout(showSlides, 3000); // Change image every 2 seconds
             }
             </script>
-    </script>
 
     
 </body>
