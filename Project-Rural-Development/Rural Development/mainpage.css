@@ -634,3 +634,41 @@ button img {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+footer{
+  background: #3e00fa94;
+  margin-top: 10px;
+}
+
+.footer-content{
+  display: flex;
+  /* align-items: center; */
+  margin: 05px 0px 05px 400px;
+}
+
+.contact ,h222 {
+  display: flex;
+  font-size: 30px;
+  text-decoration: dotted white;
+  margin-left: 400px;
+
+}
+
+.help {
+  display: flex;
+  text-decoration: dotted white;
+  margin-left: 400px;
+  
+}
+
+.img111{
+  width: 20px;
+  height: 20px;
+}
+
+.img112{
+  width: 20px;
+  height: 20px;
+  padding: 2px 4px 4px 3px ;
+}
