@@ -617,14 +617,14 @@ button img {
 }
 
 footer{
-  background: #efeff1;
+  background: #59595a;
   margin-top: 30px;
   border-top: #cdcaca 2px solid ;
 }
 
 .container1,.footer-content{
   margin: 05px 0px 5px 0px;
-  background: #efeff1;
+  background: #59595a;
   align-items: center;
   margin: 0px 0px 20px 250px ;
 }
@@ -634,20 +634,20 @@ footer{
   font-size: 30px;
   text-decoration: dotted rgb(246, 245, 245);
   margin-left: 30px;
-  background: #efeff1;
+  background: #59595a;
 }
 
 .help{
   display: flex;
   margin-left: 30px;
-  background: #efeff1;
+  background: #59595a;
   gap: 10px;
 }
 
 .help1{
   display: flex;
   margin-left: 30px;
-  background: #efeff1;
+  background: #59595a;
   height: 60px;
   gap: 10px;
   
@@ -656,7 +656,7 @@ footer{
 .help2{
   display: flex;
   margin-left: 30px;
-  background: #efeff1;
+  background: #59595a;
   height: 30px;
   gap: 10px;
   
