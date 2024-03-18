@@ -1,0 +1,21 @@
+body{
+
+    /* background-image: url("feedback3.jpeg"); */
+    z-index:auto;
+    color:rgb(175, 205, 76);
+    background: rgb(132, 130, 130);
+    margin:0px;
+}
+
+ section{
+    display:flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 500px;
+    font-size: 25px;
+    margin-top:10px;
+    background: rgb(1, 24, 32);
+    box-shadow: rgb(91, 97, 91) 2px 0px 322px 23px, black 22px 32px 4222px 322px ;
+
+    /* margin-left: 600px; */
+}
